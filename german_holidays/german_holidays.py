@@ -91,6 +91,7 @@ SPECIAL_DAY_RULES = {
     "Pfingstsonntag": Holiday(
         "Pfingstsonntag", month=1, day=1, offset=[Easter(), Day(49)]
     ),
+    "Halloween": Holiday("Halloween", month=10, day=31),
     "Silvester": Holiday("Silvester", month=12, day=31),
 }
 
