@@ -14,7 +14,7 @@ setup(
     package_dir={'german_holidays': 'german_holidays'},
     include_package_data=True,
     install_requires=[
-        'pandas',
+        'pandas==1.1.4',
     ],
     setup_requires=['pytest-runner', 'setuptools_scm'],
     tests_require=['pytest', 'pytest-cov'],
